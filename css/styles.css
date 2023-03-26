@@ -128,7 +128,18 @@ body {
   padding-left: 42px;
   padding-right: 41px;
 }
-
+.index-section2-img {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 30px;
+}
+.index-section3-img {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 30px;
+}
 .ul-style {
   list-style: none;
   color: var(--link-color);
@@ -211,26 +222,31 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.section4-ul {
-  background-color: #ffffff;
-  list-style: none;
-}
 
-.section4-ul > figcaption h3 {
+.index-section3-img > figure > figcaption h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.section4-ul > figcaption p {
+.index-section3-img > figure > figcaption p {
   color: #757575;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   margin-top: 10px;
+  text-align: center;
 }
-
+.index-figure {
+  background-color: #ffffff;
+  width: 270px;
+  height: 368px;
+  flex-direction: column;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .figcap {
   background: #ffffff;
   border-bottom: 1px solid #eeeeee;
